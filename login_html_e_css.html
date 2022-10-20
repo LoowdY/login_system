@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faça seu Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <script src="./app.js">
+        // Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyBQOj19KIfaHjWF8uHMQCilqujRm3fMYIY",
+  authDomain: "login-6c87e.firebaseapp.com",
+  projectId: "login-6c87e",
+  storageBucket: "login-6c87e.appspot.com",
+  messagingSenderId: "271242728805",
+  appId: "1:271242728805:web:3b8621d1cb8c885734fd8c",
+  measurementId: "G-D2RKLXHXJ2"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
+    </script>>
+    <div>
+        <h1>&ensp;&ensp;&ensp;&ensp;LOGIN</h1>
+        <input type="text" placeholder="E-mail">
+        <br><br>
+        <input type="password" placeholder="Senha">
+        <br><br>
+        <button>Enviar</button>
+    </div>
+</body>
+</html>
